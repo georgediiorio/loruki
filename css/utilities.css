@@ -34,7 +34,15 @@
 }
 
 /*Background & Colored Buttons*/
-.bg-primary,
+.bg-primary{
+  background: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--success-color)
+  );
+  color: #fff;
+}
+
 .btn-primary {
   background-color: var(--primary-color);
   color: #fff;
