@@ -34,7 +34,7 @@
 }
 
 /*Background & Colored Buttons*/
-.bg-primary{
+.bg-primary {
   background: linear-gradient(
     to right,
     var(--primary-color),
